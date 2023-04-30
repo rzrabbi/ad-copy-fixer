@@ -10,12 +10,20 @@
 <body>
 	<div class="container">
 		<h1>FB Ad Copy Fixer</h1>
-		<p>Enter your text below:</p>
-		<textarea id="text" rows="10"></textarea>
+		<textarea id="text" rows="10" cols="50" placeholder="Enter your text here..."></textarea>
 		<br>
 		<button onclick="highlightWords()">Highlight Words</button>
+		<p id="err-message"></p>			
+		<br>
+		<p id="output-heading">Output</p>		
+		<div id="output" contenteditable="false">
+		</div>		
+		<div id="message"></div>
+		<div id="message2"></div> 		
+		<p id="err-message2"></p>
 		<button onclick="replaceWords()">Replace Words</button>
-		<div id="output"></div>
+		<button id="copyBtn" onclick="copyText()" style="display:none;">Copy Text</button>
+		<button onclick="resetText()">Reset</button>	
 	</div>
 	<script src="./scripts/script.js"></script>
 </body>
