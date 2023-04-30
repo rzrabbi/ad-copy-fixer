@@ -1,9 +1,9 @@
 // Pre-selected words and their alternatives
 const words = {
-	"Lorem": "Ipsum",
-	"dolor": "sit",
-	"amet": "consectetur",
-	"adipiscing": "elit"
+	"Like Us": "Follow our Page",
+	"Comment": "Join the Conversation",
+	"Share": "Spread the message",
+	"Join Our": "Become a part of our Community"
 };
 
 function highlightWords() {
