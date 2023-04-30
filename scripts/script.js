@@ -3,7 +3,9 @@ const words = {
 	"Like Us": "Follow our Page",
 	"Comment": "Join the Conversation",
 	"Share": "Spread the message",
-	"Join Our": "Become a part of our Community"
+	"Join Our": "Become a part of our Community",
+	"Tag a friend": "Mention someone who would love this",
+	"Save this": "Bookmark this",
 };
 
 function highlightWords() {
